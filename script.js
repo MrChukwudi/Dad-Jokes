@@ -20,7 +20,7 @@ function generateJoke() {
 // <<<<<<<<<<<<<<<<Using the Asynch-await approach instead of .then()>>>>>>>>>>>>>
 
 /*
-asynch function generateJoke(){
+async function generateJoke(){
   let url = "https://icanhazdadjoke.com/;
   let myHeader = {
     headers: { 'Content-Type': 'application/json}
