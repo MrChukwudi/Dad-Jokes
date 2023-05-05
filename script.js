@@ -16,3 +16,21 @@ function generateJoke() {
     })
     .catch((err) => console.log(err));
 }
+
+// <<<<<<<<<<<<<<<<Using the Asynch-await approach instead of .then()>>>>>>>>>>>>>
+
+/*
+asynch function generateJoke(){
+  let url = "https://icanhazdadjoke.com/;
+  let myHeader = {
+    headers: { 'Content-Type': 'application/json}
+  }
+};
+
+let response = await fetch(url, myHeader) // This automatically sets the result of our fetch call to response.
+let data = await response.json(); // This will transfomr our result to a JSON object.
+jokeDiv.innerHTML = data.joke;
+
+
+
+*/
